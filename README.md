@@ -80,5 +80,38 @@ Plateforme web et mobile qui digitalise et simplifie l'accès au logement tout e
 
 ---
 
-## 📂 Structure du Projet
+Utilisateur Mobile (Flutter)
+        ↓
+API Gateway (AWS API Gateway ou directement via Load Balancer)
+        ↓
+Serveur Backend (NestJS - Node.js sur EC2)
+        ↓
+Base de Données (PostgreSQL - RDS ou instance EC2 sécurisée)
+        ↓
+Système de stockage (AWS S3) pour images, documents justificatifs
+        ↓
+Notifications Push (Firebase Cloud Messaging - FCM)
+        ↓
+Paiement Mobile (Intégration Mobile Money / Stripe / PayDunya etc.)
+        ↓
+Monitoring & Logs (CloudWatch, Sentry)
+
+## ⚙️ Détails d'Infrastructure
+
+| Composant             | Détail                                                                 |
+|------------------------|-----------------------------------------------------------------------|
+| Serveur API            | EC2 (Ubuntu/Debian) - déploiement du backend NestJS                   |
+| Base de données        | PostgreSQL sur AWS RDS    |
+| Stockage des fichiers  | AWS S3 (uploads d'images, documents, pièces justificatives)           |
+| Load Balancer          | AWS Elastic Load Balancer (facultatif pour montée en charge)           |
+| Domaines et SSL        | AWS Route53 + ACM (certificats SSL gratuits)                           |
+| Sécurité               | AWS Security Groups, IAM, chiffrement SSL/TLS                         |
+| Notifications          | Firebase Cloud Messaging (push notifications pour mobile)             |
+| Suivi des erreurs      | AWS CloudWatch Logs + Sentry (optionnel)                               |
+| CI/CD                  | GitHub Actions ou AWS CodePipeline pour les déploiements automatiques |
+| Sauvegardes BDD        | Snapshots automatiques RDS / Cron Jobs PostgreSQL                     |
+
+
+
+
 
