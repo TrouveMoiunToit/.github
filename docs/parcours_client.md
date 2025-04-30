@@ -94,3 +94,87 @@ L’utilisateur choisit le type de compte à créer parmi les options suivantes 
 - CGU - Conditions Générales d'Utilisation
 - Politique de confidentialité
 - Aide en ligne pour la création de compte
+
+- 
+## 🧭 Parcours Client — Réservation de logement courte durée (Style Airbnb)
+
+### 1. Lancement de l’application
+- L’utilisateur ouvre l’application mobile **TrouveMoiUnToit**.
+- Il sélectionne l’onglet **"Séjours temporaires"** ou **"Réservation courte durée"**.
+
+---
+
+### 2.  Recherche de logement
+L’utilisateur renseigne :
+- Destination (ville, quartier)
+- Dates d’arrivée et de départ
+- Nombre de voyageurs
+
+**Filtres supplémentaires disponibles** :
+- Type de logement (studio, appartement, villa, chambre privée, duplex)
+- Prix par nuit
+- Équipements (WiFi, climatisation, piscine, parking, etc.)
+
+---
+
+### 3.  Affichage des résultats
+- Liste de logements disponibles avec photo, note, prix, nom.
+- Affichage possible sur une **carte interactive**.
+- Clic sur une fiche pour accéder aux détails.
+
+---
+
+### 4. Consultation d’un logement
+La fiche détail du logement contient :
+- Galerie d’images
+- Description complète
+- Liste des équipements
+- Règles du logement
+- Politique d’annulation
+- Calendrier de disponibilités
+- Notes et avis des locataires précédents
+- Profil de l’hôte (photo, nom, statut vérifié)
+
+---
+
+### 5. Réservation
+Étapes de réservation :
+1. Sélection des dates disponibles
+2. Validation du récapitulatif
+3. Rédaction optionnelle d’un message à l’hôte
+4. Paiement sécurisé (Mobile Money / Carte bancaire)
+5. Confirmation automatique ou attente de validation manuelle par l’hôte
+
+---
+
+### 6. Avant le séjour
+- Messagerie intégrée pour échanger avec l’hôte
+- Notifications de rappel
+- Accès aux instructions d’arrivée (check-in, code d’entrée, etc.)
+
+---
+
+### 7. Pendant le séjour
+- Notifications (check-in/check-out)
+- Possibilité de contacter le support
+- Signalement d’incident ou demande d’aide
+
+---
+
+### 8.  Fin du séjour
+- Notification de fin de séjour
+- Évaluation du séjour par le client :
+  - Note globale (★)
+  - Commentaire texte
+ 
+
+---
+
+### 9. 🔁 Historique & Réservations futures
+- Historique des séjours dans l’espace personnel
+- Possibilité de :
+  - Re-réserver un logement
+  - Ajouter des logements aux **favoris**
+
+---
+
